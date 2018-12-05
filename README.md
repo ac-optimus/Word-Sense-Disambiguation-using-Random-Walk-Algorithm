@@ -22,7 +22,8 @@ networkx         2.0
 ```
 Returns a list of senses corresponding to each of the ambiguous word in the given sentence.
 
-python main.py sentence
+python main.py sentence 
+Note: sentence must be in quotes,eg: "this is a sentence"
 ```
 > Note: some words cannot be disambiguated due to their absence in the wordnet.
 # WordNet
