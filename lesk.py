@@ -1,7 +1,7 @@
 #lesk without applying stemming or lemmentisation
 
 def lesk(sense1,sense2):#takes two glosses as input
-    sent1 = sense1.split()
+    sent1 = sense1.split()  #aplly tokenization instead here
     sent2 = sense2.split()
     incmt1=0
     incmt2=0
@@ -39,5 +39,5 @@ def lesk(sense1,sense2):#takes two glosses as input
 if __name__ == "__main__":
   #  s1 = input("enter the first sentence")
    # s2 = input("enter the sencond sentence")
-    print (lesk("paper  that is specially prepared for use in drafting","the art of transferring designs specially prepared paper to wood or glass or metal surface"))
+    print (lesk("paper that is specially prepared for use in drafting","the art of transferring designs from specially prepared paper to a wood or glass or metal surface"))
     
